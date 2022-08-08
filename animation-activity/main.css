@@ -42,3 +42,23 @@ a {
 a:hover {
   color: ghostwhite;
 }
+@keyframes top{
+  25% {transform: rotateY(20deg);}
+  50% {transform: rotateY(40deg);}
+  100%{transform: rotateY(45deg);}
+
+}
+@keyframes middle{
+  50% {}
+}
+@keyframes bottom{
+  25% {transform: rotateX(20deg);}
+  50% {transform: rotateX(40deg);}
+  100%{transform: rotateX(45deg);}
+}
+.top{
+  animation-name: top;
+}
+.bottom{
+  animation-name: bottom;
+}
